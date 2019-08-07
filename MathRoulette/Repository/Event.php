@@ -10,14 +10,15 @@ class Event
 
     /**
      * Event constructor.
-     * @param mixed $object
+     * @param mixed
+     * @throws EventObjectException
      * @param int $probability
      */
     public function __construct($object, $probability)
     {
         $probability = (int) $probability;
         if($probability <= 0){
-            throw new \EventObjectException('Probability must be positive integer number');
+            throw new EventObjectException('Probability must be positive integer number');
         }
         $this->setProbability($probability);
         $this->setObject($object);
