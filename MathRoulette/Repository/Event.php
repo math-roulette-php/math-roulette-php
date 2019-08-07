@@ -10,7 +10,7 @@ class Event
 
     /**
      * Event constructor.
-     * @param maxed $object
+     * @param mixed $object
      * @param int $probability
      */
     public function __construct($object, $probability)
