@@ -8,9 +8,15 @@ Fitness proportionate selection, also known as roulette wheel selection
 
 ```javascript
 {
-  "require": {
-      "math-roulette-php/math-roulette-php": "*"
-  }
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git://github.com/math-roulette-php/math-roulette-php.git"
+        }
+    ],
+    "require": {
+        "math-roulette-php/math-roulette-php": "dev-master"
+    }
 }
 ```
 
