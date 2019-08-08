@@ -18,5 +18,5 @@
       "MathRoulette\\": "MathRoulette/"
     }
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "stable"
 }
