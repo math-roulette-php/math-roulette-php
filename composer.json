@@ -1,6 +1,6 @@
 {
   "name": "math-roulette-php/math-roulette-php",
-  "type": "library",
+  "type": "package",
   "description": "Fitness proportionate selection, also known as roulette wheel selection",
   "keywords": ["roulette", "proportionate selection"],
   "homepage": "https://github.com/math-roulette-php/math-roulette-php",
@@ -17,5 +17,6 @@
     "psr-4": {
       "MathRoulette\\": "MathRoulette/"
     }
-  }
+  },
+  "minimum-stability": "dev"
 }
