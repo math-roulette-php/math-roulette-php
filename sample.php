@@ -5,10 +5,10 @@
 require_once dirname(__FILE__) . '/MathRoulette/Generator.php';
 require_once dirname(__FILE__) . '/MathRoulette/Repository.php';
 require_once dirname(__FILE__) . '/MathRoulette/Repository/Event.php';
-require_once dirname(__FILE__) . '/MathRoulette/Exception/EmptyRepository.php';
-require_once dirname(__FILE__) . '/MathRoulette/Exception/EventObjectException.php';
-require_once dirname(__FILE__) . '/MathRoulette/Exception/GeneratorException.php';
-require_once dirname(__FILE__) . '/MathRoulette/Exception/WheelException.php';
+require_once dirname(__FILE__) . '/MathRoulette/Exceptions/EmptyRepository.php';
+require_once dirname(__FILE__) . '/MathRoulette/Exceptions/EventObjectException.php';
+require_once dirname(__FILE__) . '/MathRoulette/Exceptions/GeneratorException.php';
+require_once dirname(__FILE__) . '/MathRoulette/Exceptions/WheelException.php';
 require_once dirname(__FILE__) . '/MathRoulette/Wheel.php';
 
 // random roulette number
