@@ -11,11 +11,11 @@ Fitness proportionate selection, also known as roulette wheel selection
     "repositories": [
         {
             "type": "vcs",
-            "url": "git://github.com/math-roulette-php/math-roulette-php.git"
+            "url": "git://github.com/vk1511work/math-roulette-php.git"
         }
     ],
     "require": {
-        "math-roulette-php/math-roulette-php": "dev-master"
+        "vk1511work/math-roulette-php": "dev-master"
     }
 }
 ```
